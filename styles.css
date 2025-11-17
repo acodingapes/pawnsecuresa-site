@@ -239,24 +239,39 @@ text-align: center;
 padding: 2rem;
 font-size: 0.95rem;
 border-top: 1px solid #D4AF37;
+z-index: 10;
 }
 .footer-links {
 margin-bottom: 1rem;
+background-color: #001f3f;
+color: #D4AF37;
+text-align: center;
+padding: 2rem;
+font-size: 0.95rem;
+border-top: 1px solid #D4AF37;
+z-index: 10;
+
 }
 .footer-links a {
 color: #D4AF37;
 text-decoration: none;
 margin: 0 1rem;
 font-weight: 500;
+position: relative;
+z-index: 20;
+pointer-events: auto;
 }
+
 .footer-links a:hover {
 text-decoration: underline;}
+
 .affiliation {
 font-style: italic;
 margin-top: 1rem;
 color: #D4AF37;
 font-size: 0.9rem;
 }
+
 /* Responsive */
 @media (max-width: 768px) {
 .intro h2 { font-size: 2rem; }
